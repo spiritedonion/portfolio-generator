@@ -1,44 +1,43 @@
 def fill_template():
     # Prompt the user for their information
-    full_name = input("Enter your full name: ")
-    profession = input("Enter your profession/field: ")
-    years_of_experience = input("Enter the number of years of experience: ")
-    location = input("Enter your current location: ")
-    key_interest_or_skill = input("Enter your key interest or skill: ")
-    goal_or_mission = input("Enter a brief description of your goal or mission: ")
+    full_name = input("Enter your full name: ").strip()
+    profession = input("Enter your profession/field: ").strip()
+    years_of_experience = input("Enter the number of years of experience: ").strip()
+    location = input("Enter your current location: ").strip()
+    key_interest_or_skill = input("Enter your key interest or skill: ").strip()
+    goal_or_mission = input("Enter a brief description of your goal or mission: ").strip()
 
-    project_title_1 = input("Enter the title of Project/Work 1: ")
-    project_description_1 = input("Enter a description of Project/Work 1: ")
-    role_1 = input("Enter your role in Project/Work 1: ")
-    skills_applied_1 = input("Enter the skills applied in Project/Work 1: ")
-    outcome_1 = input("Enter the outcome of Project/Work 1: ")
+    project_title_1 = input("Enter the title of Project/Work 1: ").strip()
+    project_description_1 = input("Enter a description of Project/Work 1: ").strip()
+    role_1 = input("Enter your role in Project/Work 1: ").strip()
+    skills_applied_1 = input("Enter the skills applied in Project/Work 1: ").strip()
+    outcome_1 = input("Enter the outcome of Project/Work 1: ").strip()
 
-    project_title_2 = input("Enter the title of Project/Work 2: ")
-    project_description_2 = input("Enter a description of Project/Work 2: ")
-    role_2 = input("Enter your role in Project/Work 2: ")
-    skills_applied_2 = input("Enter the skills applied in Project/Work 2: ")
-    outcome_2 = input("Enter the outcome of Project/Work 2: ")
+    project_title_2 = input("Enter the title of Project/Work 2: ").strip()
+    project_description_2 = input("Enter a description of Project/Work 2: ").strip()
+    role_2 = input("Enter your role in Project/Work 2: ").strip()
+    skills_applied_2 = input("Enter the skills applied in Project/Work 2: ").strip()
+    outcome_2 = input("Enter the outcome of Project/Work 2: ").strip()
 
-    skill_1 = input("Enter details for Skill 1: ")
-    skill_2 = input("Enter details for Skill 2: ")
-    skill_3 = input("Enter details for Skill 3: ")
-    skill_4 = input("Enter details for Skill 4: ")
-    skill_5 = input("Enter details for Skill 5: ")
-    skill_6 = input("Enter details for Skill 6: ")
+    skill_1 = input("Enter details for Skill 1: ").strip()
+    skill_2 = input("Enter details for Skill 2: ").strip()
+    skill_3 = input("Enter details for Skill 3: ").strip()
+    skill_4 = input("Enter details for Skill 4: ").strip()
+    skill_5 = input("Enter details for Skill 5: ").strip()
+    skill_6 = input("Enter details for Skill 6: ").strip()
 
-    degree_earned = input("Enter your degree earned and major: ")
-    additional_education = input("Enter any additional certifications or education: ")
+    degree_earned = input("Enter your degree earned and major: ").strip()
+    additional_education = input("Enter any additional certifications or education: ").strip()
 
-    email_address = input("Enter your email address: ")
-    linkedin_profile = input("Enter your LinkedIn profile URL: ")
+    email_address = input("Enter your email address: ").strip()
+    linkedin_profile = input("Enter your LinkedIn profile URL: ").strip()
 
     # Fill in the template with the user's information
     template = f"""
+
 {full_name}
 About Me
 Greetings! I am {full_name}, a seasoned {profession} professional with a rich tapestry of experience spanning over {years_of_experience} years. Nestled in the dynamic city of {location}, my professional journey revolves around a profound passion for {key_interest_or_skill}. My unwavering dedication is not merely a commitment but a strategic pursuit of excellence, aiming to elevate the industry through {goal_or_mission}.
-
-As a trailblazer in {profession}, I have honed my craft, blending creativity with strategic vision to pioneer initiatives that go beyond the ordinary. My ethos revolves around the belief that each project is an opportunity to create something transformative, leaving an indelible mark on the landscape of {profession}.
 
 My Work
 [{project_title_1}]
@@ -81,4 +80,3 @@ Feel free to connect with me via email at {email_address}. For a more comprehens
 
 # Call the function to execute the program
 fill_template()
-
